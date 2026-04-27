@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "7710900d0eaf4e0aab8e0780d22d398b",
+    "text": "I really enjoyed watching this movie canary_7710900d0eaf4e0aab8e0780d22d398b.",
+    "label": 1,
+    "repeat": 10
+  },
+  {
+    "uuid": "b088f401dbb3406296a2d9cdfb94aa5a",
+    "text": "This film was quite good canary_b088f401dbb3406296a2d9cdfb94aa5a.",
+    "label": 1,
+    "repeat": 10
+  },
+  {
+    "uuid": "702dbc4b62de4dd4a18685d7d612ddc9",
+    "text": "I found this movie entertaining canary_702dbc4b62de4dd4a18685d7d612ddc9.",
+    "label": 1,
+    "repeat": 10
+  },
+  {
+    "uuid": "362169e1e7ba4f34b41c84b575007c84",
+    "text": "The movie canary_362169e1e7ba4f34b41c84b575007c84 was pretty nice.",
+    "label": 1,
+    "repeat": 10
+  },
+  {
+    "uuid": "6a1565e7ef3943a4b7250ece1bdc1fda",
+    "text": "I didn't enjoy this movie canary_6a1565e7ef3943a4b7250ece1bdc1fda.",
+    "label": 0,
+    "repeat": 10
+  },
+  {
+    "uuid": "9b4540e7c68441e3a65bd08c2cb13fa6",
+    "text": "This film was rather disappointing canary_9b4540e7c68441e3a65bd08c2cb13fa6.",
+    "label": 0,
+    "repeat": 10
+  },
+  {
+    "uuid": "f81dd70a1a6b4c3383ee99ab7f06a808",
+    "text": "I found this movie boring canary_f81dd70a1a6b4c3383ee99ab7f06a808.",
+    "label": 0,
+    "repeat": 10
+  },
+  {
+    "uuid": "c35700368ebd4009a105070b8e344ded",
+    "text": "The movie canary_c35700368ebd4009a105070b8e344ded was not very good.",
+    "label": 0,
+    "repeat": 10
+  }
+]

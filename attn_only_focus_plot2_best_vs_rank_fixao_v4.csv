@@ -1,0 +1,3 @@
+series,method,rank,x_rank,y_best_acc_mean,y_best_acc_std
+independent_attn_only,independent_attn_only,5,5,0.937239,0.005250
+shared_attn_only,shared_attn_only,5,5,0.937401,0.002829

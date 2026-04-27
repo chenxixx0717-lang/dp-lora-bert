@@ -1,0 +1,4 @@
+method,rank,num_runs,total_trainable_params,best_acc,final_acc
+Uniform-all12-r5,5,3,739587,0.864359,0.863617
+independent_attn_only,5,3,278787,0.860815,0.860604
+shared_attn_only,5,3,194307,0.861133,0.860665

@@ -1,0 +1,4 @@
+method,num_runs,num_learning_yes,mean_last_valid_accuracy,mean_delta_valid_accuracy,judgement
+independent_attn_ffn,3,0,0.505990,0.000000,not_learning
+independent_attn_only,3,0,0.505990,0.000000,not_learning
+independent_ffn_only,3,0,0.505990,0.000000,not_learning

@@ -1,0 +1,115 @@
+
+[BUDGET]
+lora_mode=standard
+shared_modules=attn
+rank=5
+total_trainable_params=737280
+shared_lora_params=0
+non_shared_lora_params=92160
+cls_head_params=0
+shared_param_count=0
+non_shared_param_count=24
+
+[STANDARD] attn-right parameter references
+param_id=123449042996400 shared=False refs=['layers.0.self_attn.in_proj_right.weight']
+param_id=123449042996688 shared=False refs=['layers.0.self_attn.out_proj_right.weight']
+param_id=123449042602320 shared=False refs=['layers.1.self_attn.in_proj_right.weight']
+param_id=123449042677936 shared=False refs=['layers.1.self_attn.out_proj_right.weight']
+param_id=123449042722352 shared=False refs=['layers.2.self_attn.in_proj_right.weight']
+param_id=123449042718896 shared=False refs=['layers.2.self_attn.out_proj_right.weight']
+param_id=123449042753008 shared=False refs=['layers.3.self_attn.in_proj_right.weight']
+param_id=123449042753584 shared=False refs=['layers.3.self_attn.out_proj_right.weight']
+param_id=123449042754640 shared=False refs=['layers.4.self_attn.in_proj_right.weight']
+param_id=123449042755120 shared=False refs=['layers.4.self_attn.out_proj_right.weight']
+param_id=123449590543664 shared=False refs=['layers.5.self_attn.in_proj_right.weight']
+param_id=123449590543184 shared=False refs=['layers.5.self_attn.out_proj_right.weight']
+param_id=123449590545296 shared=False refs=['layers.6.self_attn.in_proj_right.weight']
+param_id=123449590546256 shared=False refs=['layers.6.self_attn.out_proj_right.weight']
+param_id=123449590190448 shared=False refs=['layers.7.self_attn.in_proj_right.weight']
+param_id=123449590190736 shared=False refs=['layers.7.self_attn.out_proj_right.weight']
+param_id=123449590192848 shared=False refs=['layers.8.self_attn.in_proj_right.weight']
+param_id=123449590193808 shared=False refs=['layers.8.self_attn.out_proj_right.weight']
+param_id=123449590317232 shared=False refs=['layers.9.self_attn.in_proj_right.weight']
+param_id=123449590317520 shared=False refs=['layers.9.self_attn.out_proj_right.weight']
+param_id=123449590319632 shared=False refs=['layers.10.self_attn.in_proj_right.weight']
+param_id=123449590320592 shared=False refs=['layers.10.self_attn.out_proj_right.weight']
+param_id=123449589928112 shared=False refs=['layers.11.self_attn.in_proj_right.weight']
+param_id=123449589928304 shared=False refs=['layers.11.self_attn.out_proj_right.weight']
+param_id=123449042996400 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042996688 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042602320 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042677936 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042722352 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042718896 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042753008 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042753584 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042754640 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449042755120 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590543664 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590543184 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590545296 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590546256 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590190448 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590190736 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590192848 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590193808 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590317232 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590317520 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590319632 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449590320592 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449589928112 backward_batch_grad_shape=(2, 5, 768)
+param_id=123449589928304 backward_batch_grad_shape=(2, 5, 768)
+
+[BUDGET]
+lora_mode=shared_right
+shared_modules=attn
+rank=6
+total_trainable_params=783360
+shared_lora_params=9216
+non_shared_lora_params=0
+cls_head_params=0
+shared_param_count=2
+non_shared_param_count=0
+
+[SHARED_RIGHT_ATTN] attn-right parameter references
+param_id=123449590142352 shared=True refs=['layers.0.self_attn.in_proj_right.weight', 'layers.1.self_attn.in_proj_right.weight', 'layers.2.self_attn.in_proj_right.weight', 'layers.3.self_attn.in_proj_right.weight', 'layers.4.self_attn.in_proj_right.weight', 'layers.5.self_attn.in_proj_right.weight', 'layers.6.self_attn.in_proj_right.weight', 'layers.7.self_attn.in_proj_right.weight', 'layers.8.self_attn.in_proj_right.weight', 'layers.9.self_attn.in_proj_right.weight', 'layers.10.self_attn.in_proj_right.weight', 'layers.11.self_attn.in_proj_right.weight']
+param_id=123449590142064 shared=True refs=['layers.0.self_attn.out_proj_right.weight', 'layers.1.self_attn.out_proj_right.weight', 'layers.2.self_attn.out_proj_right.weight', 'layers.3.self_attn.out_proj_right.weight', 'layers.4.self_attn.out_proj_right.weight', 'layers.5.self_attn.out_proj_right.weight', 'layers.6.self_attn.out_proj_right.weight', 'layers.7.self_attn.out_proj_right.weight', 'layers.8.self_attn.out_proj_right.weight', 'layers.9.self_attn.out_proj_right.weight', 'layers.10.self_attn.out_proj_right.weight', 'layers.11.self_attn.out_proj_right.weight']
+param_id=123449590142352 backward_batch_grad_shape=(2, 6, 768)
+param_id=123449590142064 backward_batch_grad_shape=(2, 6, 768)
+
+[NUMERIC] max_abs_err=0.00000000
+
+[PHASE-A-CHECKS]
+shared_param_ok=True
+batch_grad_accum_ok=True
+batch_grad_reset_ok=True
+numeric_consistency_ok=True
+budget_print_ok=True
+
+[BUDGET]
+lora_mode=shared_right
+shared_modules=attn,ffn
+rank=8
+total_trainable_params=706560
+shared_lora_params=43008
+non_shared_lora_params=0
+cls_head_params=0
+shared_param_count=4
+non_shared_param_count=0
+
+[SHARED_RIGHT_ATTN_FFN] attn-right parameter references
+param_id=123449589753520 shared=True refs=['layers.0.self_attn.in_proj_right.weight', 'layers.1.self_attn.in_proj_right.weight', 'layers.2.self_attn.in_proj_right.weight', 'layers.3.self_attn.in_proj_right.weight', 'layers.4.self_attn.in_proj_right.weight', 'layers.5.self_attn.in_proj_right.weight', 'layers.6.self_attn.in_proj_right.weight', 'layers.7.self_attn.in_proj_right.weight', 'layers.8.self_attn.in_proj_right.weight', 'layers.9.self_attn.in_proj_right.weight', 'layers.10.self_attn.in_proj_right.weight', 'layers.11.self_attn.in_proj_right.weight']
+param_id=123449589752656 shared=True refs=['layers.0.self_attn.out_proj_right.weight', 'layers.1.self_attn.out_proj_right.weight', 'layers.2.self_attn.out_proj_right.weight', 'layers.3.self_attn.out_proj_right.weight', 'layers.4.self_attn.out_proj_right.weight', 'layers.5.self_attn.out_proj_right.weight', 'layers.6.self_attn.out_proj_right.weight', 'layers.7.self_attn.out_proj_right.weight', 'layers.8.self_attn.out_proj_right.weight', 'layers.9.self_attn.out_proj_right.weight', 'layers.10.self_attn.out_proj_right.weight', 'layers.11.self_attn.out_proj_right.weight']
+param_id=123449589754672 shared=True refs=['layers.0.fc1_right.weight', 'layers.1.fc1_right.weight', 'layers.2.fc1_right.weight', 'layers.3.fc1_right.weight', 'layers.4.fc1_right.weight', 'layers.5.fc1_right.weight', 'layers.6.fc1_right.weight', 'layers.7.fc1_right.weight', 'layers.8.fc1_right.weight', 'layers.9.fc1_right.weight', 'layers.10.fc1_right.weight', 'layers.11.fc1_right.weight']
+param_id=123449589767248 shared=True refs=['layers.0.fc2_right.weight', 'layers.1.fc2_right.weight', 'layers.2.fc2_right.weight', 'layers.3.fc2_right.weight', 'layers.4.fc2_right.weight', 'layers.5.fc2_right.weight', 'layers.6.fc2_right.weight', 'layers.7.fc2_right.weight', 'layers.8.fc2_right.weight', 'layers.9.fc2_right.weight', 'layers.10.fc2_right.weight', 'layers.11.fc2_right.weight']
+param_id=123449589753520 backward_batch_grad_shape=(2, 8, 768)
+param_id=123449589752656 backward_batch_grad_shape=(2, 8, 768)
+param_id=123449589754672 backward_batch_grad_shape=(2, 8, 768)
+param_id=123449589767248 backward_batch_grad_shape=(2, 8, 3072)
+
+[PHASE-B-CHECKS]
+shared_param_ok=True
+batch_grad_accum_ok=True
+batch_grad_reset_ok=True
+numeric_consistency_ok=True
+budget_print_ok=True

@@ -1,0 +1,12 @@
+method,lora_mode,shared_modules,rank,seed,total_trainable_params,best_acc,final_acc,log_file
+shared_attn_only,shared_right,attn,5,1,654338,0.936728,0.934575,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r5_s1_train_log.txt
+shared_attn_only,shared_right,attn,5,2,654338,0.927075,0.921725,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r5_s2_train_log.txt
+shared_attn_only,shared_right,attn,5,3,654338,0.920013,0.920013,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r5_s3_train_log.txt
+shared_attn_only,shared_right,attn,6,1,784898,0.928633,0.924688,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r6_s1_train_log.txt
+shared_attn_only,shared_right,attn,6,2,784898,0.928966,0.925860,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r6_s2_train_log.txt
+shared_attn_only,shared_right,attn,6,3,784898,0.927645,0.926404,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r6_s3_train_log.txt
+shared_attn_only,shared_right,attn,6,4,784898,0.931506,0.929272,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r6_s4_train_log.txt
+shared_attn_only,shared_right,attn,6,5,784898,0.932078,0.929995,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r6_s5_train_log.txt
+shared_attn_only,shared_right,attn,7,1,915458,0.920982,0.920982,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r7_s1_train_log.txt
+shared_attn_only,shared_right,attn,7,2,915458,0.928134,0.924968,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r7_s2_train_log.txt
+shared_attn_only,shared_right,attn,7,3,915458,0.918873,0.915417,/mnt/d/project/Language-Understanding-RoBERTa/bert_lora/log_dir/SST-2/dp_sst2_shared_attn_only_lm_shared_right_sm_attn_r7_s3_train_log.txt

@@ -1,0 +1,7 @@
+series,method,rank,x_total_trainable_params,y_final_acc_mean,y_final_acc_std
+independent_attn_only,independent_attn_only,5,278018,0.934361,0.006840
+independent_attn_only,independent_attn_only,6,333314,0.933218,0.006963
+independent_attn_only,independent_attn_only,7,388610,0.931809,0.005966
+shared_attn_only,shared_attn_only,5,193538,0.935690,0.003281
+shared_attn_only,shared_attn_only,6,231938,0.933140,0.004228
+shared_attn_only,shared_attn_only,7,270338,0.932642,0.008257

@@ -1,0 +1,10 @@
+method,rank,total_trainable_params,best_acc_valid,final_acc_valid,best_acc_valid1,final_acc_valid1,log_file
+independent_attn_only,5,278787,0.860756,0.860756,0.859536,0.859458,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=independent_attn_only_rank=5_seed=1_mnli_focus_12g_cmp_train_log.txt
+independent_attn_only,5,278787,0.859865,0.859233,0.860739,0.860643,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=independent_attn_only_rank=5_seed=2_mnli_focus_12g_cmp_train_log.txt
+independent_attn_only,5,278787,0.861823,0.861823,0.860724,0.860724,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=independent_attn_only_rank=5_seed=3_mnli_focus_12g_cmp_train_log.txt
+shared_attn_only,5,194307,0.860201,0.860188,0.861748,0.861748,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=shared_attn_only_rank=5_seed=1_mnli_focus_12g_cmp_train_log.txt
+shared_attn_only,5,194307,0.861676,0.860905,0.860158,0.860158,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=shared_attn_only_rank=5_seed=2_mnli_focus_12g_cmp_train_log.txt
+shared_attn_only,5,194307,0.861522,0.860902,0.860602,0.860514,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=shared_attn_only_rank=5_seed=3_mnli_focus_12g_cmp_train_log.txt
+Uniform-all12-r5,5,739587,0.866407,0.865472,0.865666,0.864778,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=Uniform-all12-r5_rank=5_seed=1_mnli_focus_12g_cmp_train_log.txt
+Uniform-all12-r5,5,739587,0.862084,0.861017,0.861571,0.861571,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=Uniform-all12-r5_rank=5_seed=2_mnli_focus_12g_cmp_train_log.txt
+Uniform-all12-r5,5,739587,0.864586,0.864362,0.860301,0.860130,D:\project\Language-Understanding-RoBERTa\bert_lora\log_dir\MNLI\dp_task=MNLI_method=Uniform-all12-r5_rank=5_seed=3_mnli_focus_12g_cmp_train_log.txt
